@@ -1,0 +1,85 @@
+/* Styles for the header section */
+header {
+	background-color: black;
+	color: #fff;
+	padding: 20px;
+    height: 20vh;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+}
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+nav a {
+    color: aliceblue;
+	text-decoration: none;
+	font-size: 18px;
+}
+nav a:hover {
+	color: blue;
+}
+
+body{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 13, 13, 1) 50%, rgba(117, 3, 3, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 13, 13, 1) 50%, rgba(117, 3, 3, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 13, 13, 1) 50%, rgba(117, 3, 3, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#750303', endColorstr='#000000', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 13, 13, 1) 50%, rgba(117, 3, 3, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(60, 13, 13, 1) 50%, rgba(117, 3, 3, 1) 100%);
+
+}
+
+/* Styles for the main section */
+main {
+	margin: 20px;
+    height:50vh;
+    color: white;
+}
+section {
+	margin-bottom: 20px;
+}
+h2 {
+	color: white;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.navb{
+    padding: 10px;
+    border-radius: 2px;
+    background-color: crimson;
+    color: white;
+}
+/* Styles for the footer section */
+footer {
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+    height: 20vh;
+}
